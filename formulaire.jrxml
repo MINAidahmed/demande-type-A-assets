@@ -30,33 +30,9 @@
 		<band splitType="Stretch"/>
 	</background>
 	<detail>
-		<band height="756" splitType="Stretch">
-			<staticText>
-				<reportElement x="210" y="640" width="180" height="20" uuid="8abb635b-b5d2-4ea7-9026-f93de2e05543"/>
-				<textElement>
-					<font size="13" isBold="true"/>
-				</textElement>
-				<text><![CDATA[Signature de demandeur
-				]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="450" y="710" width="114" height="36" uuid="a0929356-1162-40e7-be75-fd32e2e702e3"/>
-				<text><![CDATA[]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="300" y="710" width="110" height="36" uuid="11e5b514-f8ed-456b-8393-ca526c91b9b5"/>
-				<text><![CDATA[]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="140" y="710" width="110" height="36" uuid="2f26bbf5-644f-41ed-944f-74c3f4d8c461"/>
-				<text><![CDATA[]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="0" y="710" width="110" height="36" uuid="22e30c6d-9253-4d8a-91c3-37a5873c6e70"/>
-				<text><![CDATA[]]></text>
-			</staticText>
+		<band height="770" splitType="Stretch">
 			<textField>
-				<reportElement x="140" y="534" width="100" height="30" uuid="61176f71-214b-4ca5-aa1d-99aa1abac2b7"/>
+				<reportElement x="140" y="534" width="69" height="30" uuid="61176f71-214b-4ca5-aa1d-99aa1abac2b7"/>
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
@@ -68,7 +44,7 @@
 				]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="140" y="560" width="100" height="30" uuid="841d44c1-35d5-4f1d-aeef-c134fdb18e89"/>
+				<reportElement x="140" y="560" width="70" height="30" uuid="841d44c1-35d5-4f1d-aeef-c134fdb18e89"/>
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
@@ -80,7 +56,7 @@
 				]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="449" y="530" width="100" height="30" uuid="002c538f-e7c1-4af2-85c1-bf43b0349fe7"/>
+				<reportElement x="449" y="530" width="71" height="30" uuid="002c538f-e7c1-4af2-85c1-bf43b0349fe7"/>
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
@@ -92,7 +68,7 @@
 				]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="140" y="590" width="100" height="30" uuid="268a04e6-b59c-4597-b4a9-1fa6cbf28672"/>
+				<reportElement x="140" y="590" width="69" height="30" uuid="268a04e6-b59c-4597-b4a9-1fa6cbf28672"/>
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
@@ -104,7 +80,7 @@
 				]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="450" y="560" width="100" height="30" uuid="f1495496-3826-4ba2-bff9-18b79c9c25eb"/>
+				<reportElement x="450" y="560" width="70" height="30" uuid="f1495496-3826-4ba2-bff9-18b79c9c25eb"/>
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
@@ -116,7 +92,7 @@
 				]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="450" y="594" width="100" height="30" uuid="01cf70d6-c30e-4b20-a5f9-5afca4134347"/>
+				<reportElement x="450" y="594" width="70" height="30" uuid="01cf70d6-c30e-4b20-a5f9-5afca4134347"/>
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
@@ -438,6 +414,70 @@
 			<line>
 				<reportElement x="0" y="510" width="166" height="1" uuid="e210ddac-d257-4eb1-9e40-dff651338fdd"/>
 			</line>
+			<staticText>
+				<reportElement x="532" y="530" width="26" height="17" uuid="27816145-19de-448f-99f6-cde5b14c84db"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[dh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="532" y="560" width="26" height="17" uuid="26fa396e-fdea-42e9-855c-1fb7b8d29227"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[dh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="530" y="594" width="26" height="17" uuid="87a7487f-61ce-426c-9d4e-96eb6d9375b4"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[dh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="590" width="26" height="17" uuid="311fb59a-5aa6-4f77-8a13-1e7342b38933"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[dh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="564" width="26" height="17" uuid="9cb36210-586f-4856-846c-59dbaa42782f"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[dh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="194" y="630" width="168" height="20" uuid="fd8cedcb-6176-45c2-a95b-66d6227fbb75"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Signature de demandeur
+				]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="362" y="700" width="207" height="30" uuid="8a98f6c6-53e4-4eff-bef1-d635963ba1f7"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[signature de Chef d’établissement ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="182" y="700" width="160" height="30" uuid="3edd0baf-299c-4860-a942-d0d459071d5f"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[signature de la présidence]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-13" y="700" width="185" height="30" uuid="ac9989f3-5a46-48ce-8671-6d59b325746e"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[signature de chef département]]></text>
+			</staticText>
 		</band>
 	</detail>
 </jasperReport>

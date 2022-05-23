@@ -5,7 +5,7 @@
 	<parameter name="datedebut" class="java.time.LocalDate"/>
 	<parameter name="datefin" class="java.time.LocalDate"/>
 	<parameter name="ville" class="java.lang.String"/>
-	<parameter name="montant" class="java.lang.String"/>
+	<parameter name="montant" class="java.lang.Number"/>
 	<detail>
 		<band height="802" splitType="Stretch">
 			<image>
@@ -43,26 +43,26 @@ Réf. 	: Votre B.E. N°
 				<textElement>
 					<font size="14" isBold="false"/>
 				</textElement>
-				<text><![CDATA[Suite à votre demande de soutien pour participer au «
+				<text><![CDATA[Suite à votre demande de soutien pour participer au 
                 ]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="340" y="420" width="120" height="20" uuid="1066d227-b9b8-4181-b971-cf43b97cd18c"/>
+				<reportElement x="350" y="420" width="80" height="20" uuid="1066d227-b9b8-4181-b971-cf43b97cd18c"/>
 				<textElement>
 					<font size="13" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{titremanifestation}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="460" y="420" width="110" height="20" uuid="15741d97-36d6-41ed-bc8a-14a08a5fb650"/>
+				<reportElement x="430" y="420" width="140" height="20" uuid="15741d97-36d6-41ed-bc8a-14a08a5fb650"/>
 				<textElement>
 					<font size="14" isBold="false"/>
 				</textElement>
-				<text><![CDATA[ », qui aura lieu à
+				<text><![CDATA[ , qui aura lieu à
                 ]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="0" y="460" width="90" height="20" uuid="a2ee1cff-a371-40e6-be92-7af4599ef984"/>
+				<reportElement x="-10" y="460" width="100" height="20" uuid="a2ee1cff-a371-40e6-be92-7af4599ef984"/>
 				<textElement>
 					<font size="14" isBold="true"/>
 				</textElement>
@@ -99,7 +99,7 @@ Réf. 	: Votre B.E. N°
 				<textFieldExpression><![CDATA[$P{datefin}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="0" y="490" width="190" height="39" uuid="78c28666-712b-4caa-8a4b-d402d4cc7f87"/>
+				<reportElement x="0" y="490" width="190" height="30" uuid="78c28666-712b-4caa-8a4b-d402d4cc7f87"/>
 				<textElement>
 					<font size="14" isBold="false"/>
 				</textElement>
@@ -107,7 +107,7 @@ Réf. 	: Votre B.E. N°
                 ]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="190" y="490" width="110" height="21" uuid="22ac4994-6633-4541-ad43-2eeaaf544901"/>
+				<reportElement x="210" y="490" width="80" height="21" uuid="22ac4994-6633-4541-ad43-2eeaaf544901"/>
 				<textElement>
 					<font size="14" isBold="true"/>
 				</textElement>
@@ -159,6 +159,17 @@ Veuillez agréer, Madame, l'expression de mes meilleures salutations.
 				</textElement>
 				<text><![CDATA[ Madame,
                 ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-20" y="741" width="595" height="1" uuid="8752a301-3252-4661-aec7-7257d365320d"/>
+			</line>
+			<staticText>
+				<reportElement x="140" y="750" width="380" height="52" uuid="704d6820-5bcc-41bc-8946-a557857982c4"/>
+				<text><![CDATA[                  Présidence   -  Université Cadi Ayyad  -
+          Bd. Abdelkrim El Khattabi, B.P. 511 - Marrakech
+Tél : (+ 212) 05 24 43 48 14/   05 24 43 77 41– Fax :(+ 212) 0524434494
+     Email : presidence@uca.ma    -   Site web : www.uca.ma
+]]></text>
 			</staticText>
 		</band>
 	</detail>
