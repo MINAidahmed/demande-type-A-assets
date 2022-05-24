@@ -32,6 +32,7 @@
 	<parameter name="titremanifestation" class="java.lang.String"/>
 	<parameter name="id" class="java.lang.Long"/>
 	<parameter name="isbénf" class="java.lang.String"/>
+	<parameter name="devise" class="java.lang.String"/>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
@@ -510,6 +511,41 @@
 					<font isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{isbénf}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="580" width="41" height="23" uuid="167bb9de-6f87-4fda-95ee-904f7c57f25f"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{devise}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="600" width="41" height="26" uuid="150a6e67-d921-45c8-b93d-964dc9dd5aa0"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{devise}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="630" width="41" height="26" uuid="2c12e77c-7cd9-4733-bb00-7ca2a4eec31b"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{devise}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="662" width="41" height="26" uuid="89440a36-c029-4709-ad86-1e6e10dbe32a"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{devise}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="697" width="41" height="26" uuid="68b589bc-cd6b-4f3d-b41d-128067ef7be1"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{devise}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>
