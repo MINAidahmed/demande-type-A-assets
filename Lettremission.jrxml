@@ -6,6 +6,9 @@
 	<parameter name="datefin" class="java.time.LocalDate"/>
 	<parameter name="ville" class="java.lang.String"/>
 	<parameter name="montant" class="java.lang.Number"/>
+	<parameter name="nom" class="java.lang.String"/>
+	<parameter name="penom" class="java.lang.String"/>
+	<parameter name="gender" class="java.lang.String"/>
 	<detail>
 		<band height="802" splitType="Stretch">
 			<image>
@@ -152,14 +155,6 @@ Veuillez agréer, Madame, l'expression de mes meilleures salutations.
 				<text><![CDATA[Dirhams vous a été attribuée pour couvrir
                 ]]></text>
 			</staticText>
-			<staticText>
-				<reportElement x="0" y="380" width="125" height="37" uuid="5d2947b2-0f2c-4f18-92ac-531ee9b002ee"/>
-				<textElement>
-					<font size="16" isBold="false"/>
-				</textElement>
-				<text><![CDATA[ Madame,
-                ]]></text>
-			</staticText>
 			<line>
 				<reportElement x="-20" y="741" width="595" height="1" uuid="bcb264bc-ab1c-4825-ac3a-0a016b707fd5"/>
 			</line>
@@ -172,11 +167,32 @@ Tél : (+ 212) 05 24 43 48 14/   05 24 43 77 41– Fax :(+ 212) 0524434494
 ]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="0" y="180" width="150" height="20" uuid="24d06f67-5932-46a2-bfa8-bcf0f1392aac"/>
+				<reportElement x="0" y="180" width="60" height="26" uuid="c1b4e348-1be8-4a59-8903-5920abb2ae8e"/>
 				<textElement>
-					<font size="14" isBold="false"/>
+					<font size="14" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{gender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="178" width="50" height="28" uuid="87ba3066-6ec5-43b2-a962-3e732361fcd3"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nom}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="180" width="50" height="26" uuid="657d88c2-7b25-420e-9f5a-89da6c05b543"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{penom}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="380" width="60" height="26" uuid="95e189d4-599a-4dc9-918e-3bc9cfa2c0d0"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{gender}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>
